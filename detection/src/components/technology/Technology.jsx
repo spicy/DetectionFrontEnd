@@ -1,11 +1,11 @@
-import './brand.css';
+import './technology.css';
 
 import { oculus, steam, vive, vr } from './imports';
 
 import React from 'react';
 
-const Brand = () => (
-  <div className="det__brand section__padding">
+const Technology = () => (
+  <div className="det__technology section__padding">
     <div>
       <img src={oculus} />
     </div>
@@ -21,4 +21,4 @@ const Brand = () => (
   </div>
 );
 
-export default Brand;
+export default Technology;

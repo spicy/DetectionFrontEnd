@@ -26,7 +26,7 @@
 .det__features-container__feature-title div {
     width: 38px;
     height: 3px;
-    background: var(--gradient-bar);
+    background: var(--grad-bar);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 0.25rem;
 }

@@ -1,11 +1,11 @@
-.det__brand {
+.det__technology {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.det__brand div {
+.det__technology div {
     flex: 1;
     max-width: 150px;
     min-width: 120px;

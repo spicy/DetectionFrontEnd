@@ -1,20 +1,19 @@
 import './App.css';
 
-import { Brand, CTA, Navbar } from './components';
 import { DetectionDesc, Features, Footer, Header } from './containers';
+import { Navbar, Technology } from './components';
 
 import React from 'react';
 
 const App = () => (
   <div className="App">
-    <div className="gradient__bg">
+    <div className="gradient__background">
       <Navbar />
       <Header />
     </div>
-    <Brand />
+    <Technology />
     <DetectionDesc />
     <Features />
-    <CTA />
     <Footer />
   </div>
 );
