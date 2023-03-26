@@ -5,7 +5,7 @@ import React from 'react';
 
 const featuresData = [
   {
-    title: 'Virtual Reality First Person Shooter',
+    title: 'VR-FPS',
     text: 'Players must physically crouch to navigate through levels, and peek around corners when fighting the enemy.',
   },
   {
