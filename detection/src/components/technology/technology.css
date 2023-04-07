@@ -1,8 +1,8 @@
 .det__technology {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .det__technology div {
@@ -11,6 +11,6 @@
     min-width: 125px;
     margin: 1.25rem;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }

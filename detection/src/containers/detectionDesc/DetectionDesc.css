@@ -3,7 +3,7 @@
     flex-direction: column;
 
     padding: 2rem;
-    background: var(--color-footer);
+    background: var(--footer-color);
 
     /* ff 3.6+ */
     background:-moz-radial-gradient(circle at 10% -100%, #06111b 25%, rgb(3, 22, 41) 85%, rgb(1, 23, 44) 100%);
@@ -59,7 +59,7 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 32px;
-    color: var(--color-subtext);
+    color: var(--subtext-color);
     cursor: pointer;
 }
 
