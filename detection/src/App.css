@@ -29,19 +29,20 @@ body {
 }
 
 .gradient__background {
-  background:-moz-radial-gradient(circle at 0% 0%, #031220 0%, #02060C 35%);
-  
   /* global */
-  background:radial-gradient(circle at 0% 0%, #031220 0%, #02060C 35%);
+  background:radial-gradient(circle at 0% 0%, #041729 0%, #030811 30%);
+
+  /* ff */
+  background:-moz-radial-gradient(circle at 0% 0%, #041729 0%, #030811 30%);
 
   /* chrome 10+ and safari 5.1+ */
-  background:-webkit-radial-gradient(circle at 0% 0%, #031220 0%, #02060C 35%);
+  background:-webkit-radial-gradient(circle at 0% 0%, #041729 0%, #030811 30%);
 
   /* ie 10 and up */
-  background:-ms-radial-gradient(circle at 0% 0%, #031220 0%, #02060C 35%);
+  background:-ms-radial-gradient(circle at 0% 0%, #041729 0%, #030811 30%);
 
   /* opera 11.10 and up */
-  background:-o-radial-gradient(circle at 0% 0%, #031220 0%, #02060C 35%);
+  background:-o-radial-gradient(circle at 0% 0%, #041729 0%, #030811 30%);
 }
 
 .gradient__text {

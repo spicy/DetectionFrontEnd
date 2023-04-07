@@ -4,7 +4,7 @@
   --font-family: 'Manrope', sans-serif;
 
   --grad-text: linear-gradient(87deg, #ffa760 2%, #fa4b2c 103%);
-  --grad-bar: linear-gradient(104deg, #ee742d -14%, #a75000 100%);
+  --grad-bar: linear-gradient(104deg, #ee742d -14%, #ee742d00 100%);
   
   --color-background: #030811;
   --color-footer : #081624;

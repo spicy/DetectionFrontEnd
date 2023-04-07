@@ -1,7 +1,7 @@
 import './footer.css';
 
 import React from 'react';
-import detLogo from '../../logo.svg';
+import detLogo from '../../Logo.png';
 
 const Footer = () => (
   <div className="det__footer section__padding">
@@ -30,11 +30,6 @@ const Footer = () => (
         <p>Social Media</p>
         <p>Contact</p>
         <p>Support our development</p>
-      </div>
-      <div className="det__footer-links_div">
-        <h4>California State University, Fullerton</h4>
-        <p>800 N State College Blvd, Fullerton</p>
-        <p>Group Detection</p>
       </div>
     </div>
 

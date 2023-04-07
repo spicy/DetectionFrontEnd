@@ -3,7 +3,7 @@ import './navbar.css';
 import React, { useState } from 'react';
 import { RiCloseLine, RiMenu3Line } from 'react-icons/ri';
 
-import logo from '../../logo.svg';
+import logo from '../../Logo.png';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);

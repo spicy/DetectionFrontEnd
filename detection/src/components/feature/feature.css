@@ -1,59 +1,58 @@
 .det__features-container__feature {
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    flex-direction: row;
-
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 .det__features-container__feature-title {
     flex: 1;
-    max-width: 180px;
-    margin-right: 2rem;
+    max-width: 185px;
+    margin-right: 2.5rem;
 }
 
 .det__features-container__feature-title h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: -0.04em;
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: -0.05em;
     color: #fff;
 }
 
 .det__features-container__feature-title div {
-    width: 38px;
-    height: 3px;
+    width: 40px;
+    height: 3.5px;
     background: var(--grad-bar);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
     margin-bottom: 0.25rem;
 }
 
 .det__features-container_feature-text {
     flex: 2;
-    max-width: 390px;
+    max-width: 400px;
     display: flex;
 }
 
 .det__features-container_feature-text p {
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 25px;
     color: var(--color-text);
 }
 
 @media screen and (max-width: 550px) {
     .det__features-container__feature-title h1 {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 15px;
+        line-height: 25px;
     }
 
     .det__features-container_feature-text p {
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 13px;
+        line-height: 24px;
     }
 
     .det__features-container__feature {

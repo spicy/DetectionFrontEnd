@@ -47,18 +47,18 @@
 }
 
 .det__DetectionDesc-heading h1 {
-    font-size: 34px;
+    font-size: 35px;
     line-height: 45px;
     font-weight: 800;
     font-family: var(--font-family);
-    max-width: 510px;
+    max-width: 520px;
 }
 
 .det__DetectionDesc-heading p {
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 17px;
+    line-height: 32px;
     color: var(--color-subtext);
     cursor: pointer;
 }
@@ -68,24 +68,24 @@
     flex-wrap: wrap;
     flex-direction: row;
 
-    margin-top: 2rem;
+    margin-top: 2.25rem;
 }
 
 /* Customizing feature component as per needs */
 .det__DetectionDesc-container .det__features-container__feature {
     flex: 1;
     margin: 1rem;
-    min-width: 210px;
+    min-width: 220px;
     display: unset;
     flex-direction: column;
 }
 
 /* Customizing feature component as per needs */
 .det__DetectionDesc-container .det__features-container_feature-text {
-    margin-top: 0.5rem;
+    margin-top: 0.6rem;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 875px) {
     .det__DetectionDesc-heading {
         flex-direction: column;
         align-items: flex-start;
@@ -97,7 +97,7 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 675px) {
     /* Customizing feature component as per needs */
     .det__DetectionDesc-feature .det__features-container__feature {
         flex-direction: column;
@@ -105,12 +105,12 @@
 
     /* Customizing feature component as per needs */
     .det__DetectionDesc-feature .det__features-container_feature-text {
-        margin-top: 0.5rem;
+        margin-top: 0.6rem;
     }
 
     .det__DetectionDesc-heading h1 {
-        font-size: 28px;
-        line-height: 40px;
+        font-size: 29px;
+        line-height: 42px;
     }
 }
 

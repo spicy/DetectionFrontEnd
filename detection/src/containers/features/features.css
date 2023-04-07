@@ -34,14 +34,14 @@
 }
 
 .det__features-container {
-    flex: 1.5;
+    flex: 1.75;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1000px) {
     .det__features {
         flex-direction: column;
     }
@@ -52,9 +52,9 @@
 }
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .det__features-heading h1 {
         font-size: 28px;
-        line-height: 38px;
+        line-height: 40px;
     }
 }

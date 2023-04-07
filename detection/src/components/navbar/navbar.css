@@ -1,25 +1,24 @@
 .det__navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
-    padding: 2rem 6rem;
+    justify-content: space-between;
+    padding: 3rem 6rem;
 }
 
 .det__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .det__navbar-links_logo {
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 
 .det__navbar-links_logo img {
-    width: 62.56px;
-    height: 16.02px;
+    width: 50px;
+    height: 20px;
 }
 
 .det__navbar-links_container {
@@ -43,15 +42,15 @@
     line-height: 25px;
     text-transform: capitalize;
 
-    margin: 0 1rem;
+    margin: 0 1.5rem;
     cursor: pointer;
 }
 
 .det__navbar-sign button,
 .det__navbar-menu_container button {
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.5rem;
     color: #fff;
-    background: #FF4820;
+    background: #fd451b;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -59,11 +58,11 @@
     border: none;
     outline: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 5.5px;
 }
 
 .det__navbar-menu {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 
     display: none;
     position: relative;
@@ -81,14 +80,14 @@
     
     text-align: end;
     background: var(--color-footer);
-    padding: 2rem;
+    padding: 2.5rem;
     position: absolute;
     right: 0;
-    top: 40px;
+    top: 42px;
     margin-top: 1rem;
-    min-width: 210px;
+    min-width: 220px;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
 
 .det__navbar-menu_container p {
@@ -99,7 +98,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1100px) {
     .det__navbar-links_container {
         display: none;
     }

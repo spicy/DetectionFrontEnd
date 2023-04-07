@@ -10,11 +10,11 @@ const featuresData = [
   },
   {
     title: 'LIDAR Scanner',
-    text: 'By emitting LIDAR rays in the direction it is facing, the player robot perceives its environment, and the colors of the particles change based on the texture of the objects.',
+    text: 'The player robot perceives its environment by emitting LIDAR rays in the direction it is facing. The color of the LIDAR rays change based on the texture of the objects they land on.',
   },
   {
     title: 'Weapons',
-    text: 'The player has access to various weapons such as rifles, shotguns, pistols, and knives to attack and shoot their enemies.',
+    text: 'The player has access to various weapons such as rifles, shotguns, pistols, and knives to eliminate enemies.',
   },
   {
     title: 'Music',
