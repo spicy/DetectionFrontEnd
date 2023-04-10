@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="det__navbar-links_container">
           <p><a href="#home">Home</a></p>
           <p><a href="#whatis">What is Detection?</a></p>
-          <p><a href="#features">Features</a></p>
+          <p><a href="#details">Details</a></p>
         </div>
       </div>
       <div className="det__navbar-menu">
@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="det__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
             <p><a href="#whatis">What is Detection?</a></p>
-            <p><a href="#features">Features</a></p>
+            <p><a href="#details">Details</a></p>
           </div>
         </div>
         )}

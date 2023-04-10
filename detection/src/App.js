@@ -1,6 +1,6 @@
 import './App.css';
 
-import { DetectionDesc, Features, Footer, Header } from './containers';
+import { Description, Details, Footer, Header } from './containers';
 import { Navbar, Technology } from './components';
 
 import React from 'react';
@@ -12,8 +12,8 @@ const App = () => (
       <Header />
     </div>
     <Technology />
-    <DetectionDesc />
-    <Features />
+    <Description />
+    <Details />
     <Footer />
   </div>
 );

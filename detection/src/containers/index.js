@@ -1,4 +1,4 @@
-export { default as Features } from './features/Features';
+export { default as Details } from './details/Details';
 export { default as Footer } from './footer/Footer';
 export { default as Header } from './header/Header';
-export { default as DetectionDesc } from './detectionDesc/DetectionDesc';
+export { default as Description } from './description/Description';

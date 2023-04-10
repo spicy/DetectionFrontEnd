@@ -1,10 +1,10 @@
-.det__features-container__feature-title {
+.det__details-cont_detail-title {
     flex: 1;
     max-width: 185px;
     margin-right: 2.5rem;
 }
 
-.det__features-container__feature-title h1 {
+.det__details-cont_detail-title h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 19px;
@@ -13,7 +13,7 @@
     color: #fff;
 }
 
-.det__features-container__feature {
+.det__details-cont_detail {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -22,7 +22,7 @@
     margin: 1.5rem;
 }
 
-.det__features-container__feature-title div {
+.det__details-cont_detail-title div {
     width: 40px;
     height: 3.5px;
     background: var(--grad-bar);
@@ -30,7 +30,7 @@
     margin-bottom: 0.25rem;
 }
 
-.det__features-container_feature-text p {
+.det__details-cont_detail-text p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 15px;
@@ -38,24 +38,24 @@
     color: var(--color-text);
 }
 
-.det__features-container_feature-text {
+.det__details-cont_detail-text {
     flex: 2;
     max-width: 400px;
     display: flex;
 }
 
 @media screen and (max-width: 550px) {
-    .det__features-container__feature-title h1 {
+    .det__details-cont_detail-title h1 {
         font-size: 15px;
         line-height: 25px;
     }
 
-    .det__features-container_feature-text p {
+    .det__details-cont_detail-text p {
         font-size: 13px;
         line-height: 24px;
     }
 
-    .det__features-container__feature {
+    .det__details-cont_detail {
         margin: 1rem 0;
     }
 }

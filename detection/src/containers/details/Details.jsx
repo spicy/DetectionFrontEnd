@@ -1,9 +1,9 @@
-import './features.css';
+import './details.css';
 
-import Feature from '../../components/feature/Feature';
+import Detail from '../../components/detail/Detail';
 import React from 'react';
 
-const featuresData = [
+const detailsData = [
   {
     title: 'VR-FPS',
     text: 'Players must physically crouch to navigate through levels, and peek around corners when fighting the enemy.',
@@ -22,18 +22,18 @@ const featuresData = [
   },
 ];
 
-const Features = () => (
-  <div className="det__features section__padding" id="features">
-    <div className="det__features-heading">
+const Details = () => (
+  <div className="det__details section__padding" id="details">
+    <div className="det__details-heading">
       <h1 className="gradient__text">Watch our videos</h1>
       <p>and view our Github to get started</p>
     </div>
-    <div className="det__features-container">
-      {featuresData.map((item, index) => (
-        <Feature title={item.title} text={item.text} key={item.title + index} />
+    <div className="det__details-container">
+      {detailsData.map((item, index) => (
+        <Detail title={item.title} text={item.text} key={item.title + index} />
       ))}
     </div>
   </div>
 );
 
-export default Features;
+export default Details;
