@@ -7,7 +7,7 @@ import React from 'react';
 
 const App = () => (
   <div className="App">
-    <div className="gradient__background">
+    <div className="fade__background">
       <Navbar />
       <Header />
     </div>
