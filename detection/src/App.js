@@ -1,7 +1,7 @@
 import './App.css';
 
 import { Description, Details, Footer, Header } from './containers';
-import { Navbar, Technology } from './components';
+import { Navbar, Technology, YoutubeEmbed } from './components';
 
 import React from 'react';
 
@@ -11,6 +11,7 @@ const App = () => (
       <Navbar />
       <Header />
     </div>
+    <YoutubeEmbed embedId="OTIwsWaH92k" />
     <Technology />
     <Description />
     <Details />
