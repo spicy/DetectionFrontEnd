@@ -1,7 +1,7 @@
 import './header.css';
 
 import React from 'react';
-import particles from '../../assets/ai.png';
+import particles from '../../assets/detgame.png';
 
 const Header = () => (
   <div className="det__header section__padding" id="home">
