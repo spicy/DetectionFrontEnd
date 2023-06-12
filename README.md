@@ -1,4 +1,4 @@
-# Website: [DetectionGame.com](https://www.detectiongame.com/)
+# Website: [DetectionGame.com](https://detectiongame.com/)
 [![JavaScript](https://img.shields.io/badge/language-JavaScript-yellow)](https://www.javascript.com/)
 [![Issues](https://img.shields.io/github/issues/spicy/DetectionFrontEnd.svg?style=plastic)](https://github.com/spicy/DetectionFrontEnd/issues)
 
